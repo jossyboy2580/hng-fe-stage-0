@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  font-family: Lato;
+  display: grid;
+  place-content: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.profile-card {
+  max-width: 450px;
+  margin: 30px auto 0;
+  overflow: hidden;
+  background: white;
+  border-radius: 0.7em;
+  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.4);
+  display: grid;
+  grid-template-rows: 200px 1fr;
+}
+
+.profile-picture {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.profile-picture img {
+  object-fit: contain;
+}
+
+.profile-details {
+  padding: 0.5em;
+}
+
+.name,
+.jobtitle {
+  text-align: center;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.7em;
+  margin-bottom: 0.2em;
+}
+
+.jobtitle {
+  font-size: 1.2em;
+  margin-bottom: 0.7em;
+}
+
+.bio {
+  line-height: 1.2em;
+}
+
+#timeSlot {
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: right;
+  color: purple;
+}
+
+.wrapper {
+  margin-block: 0.7em;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin-top: 0.5em;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 0.5em;
+  padding: 0.5em 0.7em;
+  border-radius: 0.3em;
+  border: 1px solid purple;
+}
+
+.social-links li a {
+  display: flex;
+  gap: 0.2em;
+  align-items: center;
+  text-decoration: underline;
+  color: purple;
+}
