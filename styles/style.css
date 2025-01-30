@@ -4,6 +4,7 @@ body {
   font-family: Lato;
   display: grid;
   place-content: center;
+  padding-inline: 16px;
 }
 
 img {
