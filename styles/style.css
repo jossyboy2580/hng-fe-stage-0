@@ -55,6 +55,12 @@ img {
   line-height: 1.2em;
 }
 
+.email-link {
+  margin-top: 0.5em;
+  color: purple;
+  display: inline-block;
+}
+
 #timeSlot {
   font-size: 0.7em;
   font-weight: bold;
